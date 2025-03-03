@@ -38,7 +38,7 @@ class _FormularioComentariosState extends State<FormularioComentarios> {
 
   @override
   void dispose() {
-    // Limpieza de controladores al cerrar el widget
+    // Limpieza de controladores al  el widget
     _nombreController.dispose();
     _emailController.dispose();
     _comentarioController.dispose();
